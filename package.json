@@ -9,4 +9,6 @@
   "author": "",
   "license": "ISC",
   "description": ""
+  "npm install eslint@latest --save-dev"
+
 }
