@@ -21,5 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Lint JavaScript code
+        run: npx eslint .
+
       - name: Run Node.js application
         run: node app.js
